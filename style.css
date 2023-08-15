@@ -109,7 +109,6 @@ nav .navbar-logo {
   font-size: 2.2rem;
   position: absolute;
   right: 20px;
-  /* transition: 0.2s; */
 }
 
 .container-question.active::after {
@@ -141,7 +140,6 @@ nav .navbar-logo {
 .answercont {
   max-height: 0;
   overflow: hidden;
-  /* transition: 0.3s; */
 }
 
 .answer {
@@ -159,13 +157,18 @@ img {
   max-width: 100%;
 }
 
+.version {
+  margin: 1rem auto;
+  color: var(--cinzaTexto);
+}
+
 footer {
   background-color: #373131;
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .footer-text {
@@ -182,10 +185,19 @@ footer img {
     min-height: 0;
   }
   .content {
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+   .container-question {
+    margin: 20px 0;
+  }
+
+  .answer {
+    padding: 0 10px 20px;
+    font-size: 0.9rem;
   }
 }
 
